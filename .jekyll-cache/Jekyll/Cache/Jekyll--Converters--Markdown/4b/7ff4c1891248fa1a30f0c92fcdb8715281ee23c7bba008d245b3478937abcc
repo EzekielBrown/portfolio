@@ -1,0 +1,22 @@
+I"’<p>Model View Controller is used to separate a large application into specific sections that each have their own function. Model, View, and Controller are the three sections of MVC. The Controller receives requests from the server requested by the user. Essentially, the Controller acts as a middleman between the Model and the View. On behalf of the user, the Controller will request information from the Model. The Model handles all the data logic and interacts with databases. The Model will return its response to the Controller, who will then send that information to the view to be rendered for the user. Then back to the Controller, and finally to the user. There is no interaction between the Model and the View. In contrast, the Document Object Model is the interface for web documents. This allows programming languages to interact with the page through nodes and objects.</p>
+
+<h2 id="dom-methods">DOM Methods</h2>
+
+<p>getElementById<br />
+<code class="language-plaintext highlighter-rouge">var element = document.getElementById(id);</code></p>
+
+<p>getElementsByTagName<br />
+<code class="language-plaintext highlighter-rouge">elements = element.getElementsByTagName(tagName)</code></p>
+
+<p>getElementsByClassName<br />
+<code class="language-plaintext highlighter-rouge">var elements = document.getElementsByClassName(names);</code></p>
+
+<p>getAttribute<br />
+<code class="language-plaintext highlighter-rouge">let attribute = element.getAttribute(attributeName);</code></p>
+
+<p>querySelector<br />
+<code class="language-plaintext highlighter-rouge">element = baseElement.querySelector(selectors);</code></p>
+
+<p>You can find the repo for this lab [here][Lab-Five].</p>
+
+:ET

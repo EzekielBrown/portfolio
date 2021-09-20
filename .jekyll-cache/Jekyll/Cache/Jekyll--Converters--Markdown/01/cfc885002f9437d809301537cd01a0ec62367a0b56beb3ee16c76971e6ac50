@@ -1,0 +1,7 @@
+I"*<p>The DOM levels are referencing the position of the elements in the heirarchy of the document. As displayed below, <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> is the parent element and <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> is the child element. <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> would be on level 1 of the DOM and <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> would be on level 2 of the DOM. 
+`</p>
+<div>
+<h1>Hello</h1>
+</div>
+<p>`</p>
+:ET

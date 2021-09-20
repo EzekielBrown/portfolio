@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "DOM vs MVC"
+subtitle: "Document Object Model vs Model View Controller"
+date:   2021-09-02 17:06:37 +1200
+categories: WEB503 Labs
+---
+
+
+Model View Controller is used to separate a large application into specific sections that each have their own function. Model, View, and Controller are the three sections of MVC. The Controller receives requests from the server requested by the user. Essentially, the Controller acts as a middleman between the Model and the View. On behalf of the user, the Controller will request information from the Model. The Model handles all the data logic and interacts with databases. The Model will return its response to the Controller, who will then send that information to the view to be rendered for the user. Then back to the Controller, and finally to the user. There is no interaction between the Model and the View. In contrast, the Document Object Model is the interface for web documents. This allows programming languages to interact with the page through nodes and objects.
+
+## DOM Methods
+
+getElementById<br>
+`var element = document.getElementById(id);`
+
+getElementsByTagName<br>
+`elements = element.getElementsByTagName(tagName)`
+
+getElementsByClassName<br>
+`var elements = document.getElementsByClassName(names);`
+
+getAttribute<br>
+`let attribute = element.getAttribute(attributeName);`
+
+querySelector<br>
+`element = baseElement.querySelector(selectors);`
+
+
+You can find the repo for this lab [here][Lab-Five].
+
+[Lab-Five]: https://github.com/NMIT-GITHUB/web503-s2-21-lab-five-EzekielBrown
