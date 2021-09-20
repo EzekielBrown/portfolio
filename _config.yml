@@ -1,0 +1,25 @@
+title:              Ezekiel Portfolio
+email:              zek-brown@live.nmit.ac.nz
+description:        Portfolio website for Ezekiel
+author:             Ezekiel
+baseurl:            ""
+url:                "https://ezekielbrown.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    EzekielBrown
+facebook_username:  
+instagram_username:  
+linkedin_username:  ezekiel-brown-a3995a217
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
